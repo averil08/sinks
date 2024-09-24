@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinks R Us - Old School Website</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Types of Sinks</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Contact Us</a></li>
-    </section>
-    <img class="sinkcover" src="sinkscover.jpg">
+    <nav class="navbar">
+        <div class="navdiv">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Types of Sinks</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <button><a href="#">Log In</a></button>
+        </div>
+    </nav>
+
+    <div class="sinkscover"></div>
     
     <div class="wrapper">
         <section class="header-info">
@@ -23,22 +33,24 @@
             <p>Your one-stop shop for all types of sinks</p>
         </section>
 
-        <section class="sink1-info">
-            <img class="sink1-jpg" src="images/sink1.jpg" alt="Sink Image">
-            <h2>About Our Sinks</h2>
-            <p>At Sinks R Us, we offer a wide variety of sinks to suit every need. From classic designs to modern styles, our sinks are made from high-quality materials and built to last.</p>
-        </section>
+        <section class="flex-content">
+            <section class="sink1-info">
+                <img class="sink1-jpg" src="images/sink1.jpg" alt="Sink Image">
+                <h2>About Our Sinks</h2>
+                <p>At Sinks R Us, we offer a wide variety of sinks to suit every need. From classic designs to modern styles, our sinks are made from high-quality materials and built to last.</p>
+            </section>
 
-        <section class="sink2-info">
-            <img class="sink2-jpg" src="images/sink2.jpg" alt="Sink Image" width="100%" height="auto">
-            <h2>Types of Sinks</h2>
-            <p>Explore our extensive range of sinks, including undermount, farmhouse, and vessel sinks. Each type comes with its own unique features and benefits to match your kitchen or bathroom design.</p>
-        </section>
+            <section class="sink2-info">
+                <img class="sink2-jpg" src="images/sink2.jpg" alt="Sink Image" width="100%" height="auto">
+                <h2>Types of Sinks</h2>
+                <p>Explore our extensive range of sinks, including undermount, farmhouse, and vessel sinks. Each type comes with its own unique features and benefits to match your kitchen or bathroom design.</p>
+            </section>
 
-        <section class="sink3-info">
-            <img class="sink3-jpg" src="images/sink3.jpeg" alt="Sink Features" width="100%" height="auto">
-            <h2>Features and Benefits</h2>
-            <p>Our sinks come with a range of features, including easy-to-clean surfaces, scratch resistance, and various styles to complement your decor. Learn more about what makes our sinks stand out.</p>
+            <section class="sink3-info">
+                <img class="sink3-jpg" src="images/sink3.jpeg" alt="Sink Features" width="100%" height="auto">
+                <h2>Features and Benefits</h2>
+                <p>Our sinks come with a range of features, including easy-to-clean surfaces, scratch resistance, and various styles to complement your decor. Learn more about what makes our sinks stand out.</p>
+            </section>
         </section>
         <p>&copy; 2024 Sinks R Us</p>
     </div>
