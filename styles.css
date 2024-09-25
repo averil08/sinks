@@ -23,7 +23,7 @@
 }
 
 .navbar li a {
-    color: #2b281f;
+    color: #3b3b21;
     font-family: 'inter', sans-serif;
     font-size: 18px;
     text-decoration: none; /*removes underlined text*/
@@ -54,7 +54,7 @@ button a {
 
 .sinkscover{
     background-image: url('sinkscover.jpg');
-    background-size: cover;
+    background-size: cover; /*Resize background image to cover entire container*/
     background-position: center; /*placed in center*/
     height: 600px;
     width: 100%;
@@ -63,25 +63,70 @@ button a {
 /*MAIN CONTENT*/
 .wrapper {
     width: 100%;
+    color: #3b3b21;
+    font-family: 'inter', sans-serif;
 }
 
 .header-info {
     width: 100%;
     text-align: center;
-    font-family: 'inter', sans-serif;
 }
 
 .header-info h1 {
-    padding-top: 50px;
+    padding-top: 50px; /*space between h1 and picture above*/
     font-size: 50px;
-    color:black;
 }
 
 .flex-content {
     display: flex;
+    flex-wrap: wrap;
     padding: 25px;
     justify-content: space-between; /*enables space between each*/
     gap: 10px; /*specify space size between each flex item*/
+}
+
+.sink1-info, .sink2-info, .sink3-info, .sink4-info, .sink5-info, .sink6-info, .sink7-info, .sink8-info, .sink9-info{
+    flex: 1 1 300px; /* Adjust the basis to ensure the width adapts */
+    margin: 10px; /*adds space around each item */
+}
+
+.footer-info {
+    background-color: #ada498;
+    padding: 10px;
+    color: white;
+}
+
+.footer-info h3 {
+    font-weight: lighter;
+}
+
+.footer {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contacts {
+    color: #47482b;
+    display: flex;
+    gap: 20px;
+}
+
+.fa-brands.fa-instagram.fa-xl { /*need dots, cannot read if not dikit*/
+    align-self: center;
+}
+.material-symbols-outlined:hover {
+    background-color: #feffd2;
+    border-radius: 20px;
+    padding: 5px;  
+}
+
+.fa-brands.fa-instagram.fa-xl:hover {
+    background-color: #feffd2;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .sink1-info {
@@ -100,12 +145,35 @@ button a {
     border-radius: 30px;
 }
 
+.sink4-jpg {
+    border-radius: 30px;
+}
+
+.sink5-jpg {
+    border-radius: 30px;
+}
+
+.sink6-jpg {
+    border-radius: 30px;
+}
+
+.sink7-jpg {
+    border-radius: 30px;
+}
+
+.sink8-jpg {
+    border-radius: 30px;
+}
+
+.sink9-jpg {
+    border-radius: 30px;
+}
+
 .sink3-info {
     width: 100%;
 }
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
