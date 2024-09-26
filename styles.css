@@ -67,6 +67,21 @@ button a {
     font-family: 'inter', sans-serif;
 }
 
+.types-sinks {
+    background-color: #f4eeee;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.types-sinks h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.types-sinks p {
+    text-align: center;
+}
 .header-info {
     width: 100%;
     text-align: center;
@@ -171,6 +186,10 @@ button a {
     background-color: #feffd2;
     border-radius: 20px;
     padding: 15px;
+}
+
+.flex-content h2, p {
+    text-align: center;
 }
 
 .sink1-info {
