@@ -32,7 +32,7 @@
 }
 
 .navbar li a:hover { /*highlight per word pag natapat*/
-    background-color: #ab8868;
+    background-color: #ab8868; /*gives color if natapat cursor*/
     border-radius: 90px;
     padding: 10px;
 }
@@ -68,7 +68,7 @@ button a {
 }
 
 .types-sinks {
-    background-color: #f4eeee;
+    background-color: #fff3e7;
     margin: 20px;
     border-radius: 20px;
     padding: 10px;
@@ -119,8 +119,16 @@ button a {
    text-align: center;
 }
 
+.about p {
+    text-align: justify;
+}
+
 .features {
     text-align: center;
+}
+
+.features p {
+    text-align: justify;
 }
 
 .about, .features{
@@ -188,8 +196,12 @@ button a {
     padding: 15px;
 }
 
-.flex-content h2, p {
+.flex-content h2 {
     text-align: center;
+}
+
+.flex-content p {
+    text-align: justify;
 }
 
 .sink1-info {
