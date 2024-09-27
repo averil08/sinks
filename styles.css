@@ -87,13 +87,29 @@ button a {
     text-align: center;
 }
 
-.header-info h1 {
+.header-info h3 {
     padding-top: 50px; /*space between h1 and picture above*/
-    font-size: 50px;
+    
 }
 
-.header-info p {
+.header-info h2 {
     padding-bottom: 30px;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-weight: lighter;
+    .highlight {
+        font-weight: bold;
+        color:#2b281f;
+    }
+}
+
+.header-info h2 {
+    .highlightB {
+        font-weight: bold;
+        color: #734c37;
+    }
 }
 
 .section-line {
@@ -108,6 +124,7 @@ button a {
 
 
 .about-sinks {
+    background-color: #f6f6f6;
     display: flex;
     flex-wrap: wrap;
     padding: 25px;
@@ -115,33 +132,19 @@ button a {
     gap: 5px; /*specify space size between each flex item*/
 }
 
-.about {
-   text-align: center;
-}
-
-.about p {
-    text-align: justify;
-}
-
 .features {
     text-align: center;
+    padding-top: 90px;
 }
 
 .features p {
     text-align: justify;
+    padding: 10px;
 }
 
 .about, .features{
     flex: 1 1 300px; /* Adjust the basis to ensure the width adapts */
     margin: 10px; /*adds space around each item */
-}
-
-.about {
-    width: 100%; 
-}
-
-.features {
-    width: 100%;
 }
 
 .flex-content {
@@ -179,6 +182,7 @@ button a {
     color: #47482b;
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
 
 .fa-brands.fa-instagram.fa-xl { /*need dots, cannot read if not dikit*/
@@ -302,6 +306,19 @@ img {
 
     .flex-content {
         flex-direction: column; /*make the pics and description vertical like in navdiv*/
+    }
+
+    .features {
+        padding-top: 0;
+    }
+
+    .header-info h2 {
+        margin: 20px;
+        text-align: justify;
+    }
+
+    .types-sinks p {
+        text-align: justify;
     }
 }
 
