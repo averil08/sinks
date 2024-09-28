@@ -60,6 +60,10 @@ button a {
     width: 100%;
 }
 
+html {
+    scroll-behavior: smooth; /*scrolls in linked navigations*/
+}
+
 /*MAIN CONTENT*/
 .wrapper {
     width: 100%;
